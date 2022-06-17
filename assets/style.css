@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -42,14 +42,6 @@ header nav ul li a {
 }
 
 /* Hero style start */
-.hero h2 {
-    float: right;
-    margin: 200px;
-    background-color: lightblue;
-    padding: 10px;
-
-}
-
 .hero {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -60,7 +52,7 @@ header nav ul li a {
 
 /* Section title styling */
 .section-title {
-    margin: 0 100px;
+    margin: 0 10px;
     font-size: 55px;
     color: lightblue;
     margin-right: 35px;
@@ -79,7 +71,7 @@ header nav ul li a {
 }
 
 .about-me-content {
-    width: 35%;
+    width: 50%;
     text-align: left;
     margin: 3.5%;
     font-size: 30px;
@@ -90,7 +82,7 @@ header nav ul li a {
 
 /* styling for "work" boxes */
 .box img {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -239,9 +231,11 @@ header nav ul li a {
 .information {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 15px;
+    margin: 50px 2px;
     font-weight: lighter;
     font-size: 25px;
     color: lightblue;
+    align-items: stretch;
+    list-style: none;
+
 }
